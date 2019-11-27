@@ -11,10 +11,11 @@ sourceCompatibility = '11'
 repositories {
 	mavenCentral()
 	maven { url 'https://repo.spring.io/milestone' }
+	maven { url 'https://repo.spring.io/release' }
 }
 
 ext {
-	set('springCloudVersion', "Hoxton.RC2")
+	set('springCloudVersion', "Hoxton.RELEASE")
 }
 
 dependencies {

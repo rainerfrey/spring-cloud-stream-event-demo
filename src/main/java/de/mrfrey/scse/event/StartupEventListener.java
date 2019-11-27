@@ -13,8 +13,8 @@ import org.springframework.stereotype.Component;
 public class StartupEventListener implements ApplicationListener<ApplicationReadyEvent> {
     private static final Logger logger = LoggerFactory.getLogger( StartupEventListener.class );
 
-    @Autowired
-    private MessageChannel output;
+//    @Autowired
+//    private MessageChannel output;
 
     @Override
     public void onApplicationEvent( ApplicationReadyEvent event ) {
